@@ -1,0 +1,19 @@
+{
+  "name": "es8-tests",
+  "version": "1.0.0",
+  "description": "ES8 Tests",
+  "main": "index.js",
+  "author": "Billie Ko <bmkrocks@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx mocha --compilers js:babel-core/register"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "*",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "*"
+  }
+}
