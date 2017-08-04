@@ -6,7 +6,7 @@
   "author": "Billie Ko <bmkrocks@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "npx mocha --compilers js:babel-core/register"
+    "test": "node_modules/mocha/bin/mocha --compilers js:babel-core/register"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
